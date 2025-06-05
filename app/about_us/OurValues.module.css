@@ -1,0 +1,46 @@
+.valuesSection {
+  padding: 2rem 0;
+}
+
+.valuesTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #1a237e;
+  font-weight: 700;
+}
+
+.valuesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.valueCard {
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1 1 250px;
+  max-width: 350px;
+}
+
+.valueTitle {
+  margin: 0 0 1rem 0;
+  color: #1a237e;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.valueDesc {
+  margin: 0;
+  color: #333;
+  font-size: 1rem;
+}
