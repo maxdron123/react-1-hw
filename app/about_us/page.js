@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
-import OurValues from "./OurValues.jsx";
-import OurCrew from "./OurCrew.jsx";
-import OurPartners from "./OurPartners.jsx";
+import OurValues from "./components/OurValues.jsx";
+import OurCrew from "./components/OurCrew.jsx";
+import OurPartners from "./components/OurPartners.jsx";
 
 // TASK - React 1 week 1
 // After you are finished with creating the page, move the OurValues, OurCrew, OurPartners components into their own files
