@@ -3,6 +3,7 @@
 /* Use the README.md file for descriptions */
 /* Create a <PlanetCard /> component, which accepts the following properties: */
 /* name, description, thumbnail, isSelected, onAddOrRemovePlanet */
+import styles from "@/components/destination/destination.module.css";
 
 export default function PlanetCard({
   name,
@@ -20,7 +21,10 @@ export default function PlanetCard({
         </h2>
         <p>{description}</p>
       </div>
-      <button className="roundButton" onClick={() => onAddOrRemovePlanet(name)}>
+      <button
+        className={styles.roundButton}
+        onClick={() => onAddOrRemovePlanet(name)}
+      >
         {isSelected ? "REMOVE" : "ADD PLANET"}
       </button>
     </div>

@@ -77,8 +77,29 @@
   font-size: small;
 }
 
-.addWishlistItem input, 
+.addWishlistItem input,
 .addWishlistItem select {
   height: 30px;
   margin-block-end: var(--spacing-20);
+}
+
+.roundButton {
+  background: linear-gradient(90deg, #1a237e 0%, #3949ab 100%);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(26, 35, 126, 0.08);
+  margin-left: 1rem;
+}
+
+.roundButton:hover,
+.roundButton:focus {
+  background: linear-gradient(90deg, #3949ab 0%, #1a237e 100%);
+  transform: translateY(-2px) scale(1.04);
+  outline: none;
 }
