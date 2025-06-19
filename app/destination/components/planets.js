@@ -1,4 +1,4 @@
-const planets = [
+export const planets = [
   {
     name: "Europa",
     description:
